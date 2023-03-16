@@ -40,3 +40,6 @@ target_link_libraries(
 mkdir build && cd build
 cmake <PATH_TO_CMAKE_LISTS> -DCMAKE_TOOLCHAIN_FILE=<PATH_TO_TOOL_CHAIN_FOLDER>/Toolchain-RaspberryPi.cmake -G"Eclipse CDT4 - Ninja" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_BUILD_TYPE=Debug
 ```
+
+# Stuffes
+* Clang-format on vscode "clang-format.assumeFilename": "C:/Users/tigomes/Workspace/Courses/RealTimeEmbeddedSystemsCourse/Tools/.clang-format"
