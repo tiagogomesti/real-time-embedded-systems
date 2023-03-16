@@ -45,3 +45,11 @@ cmake <PATH_TO_CMAKE_LISTS> -DCMAKE_TOOLCHAIN_FILE=<PATH_TO_TOOL_CHAIN_FOLDER>/T
 
 # Stuffs
 * Clang-format on vscode "clang-format.assumeFilename": "C:/Users/tigomes/Workspace/Courses/RealTimeEmbeddedSystemsCourse/Tools/.clang-format"
+* Add to C_Cpp Default System Path on C/C++ IntelliSense
+  * C:/SysGCC/raspberry/arm-linux-gnueabihf/include
+  * C:/SysGCC/raspberry/arm-linux-gnueabihf/sysroot/usr/include
+  * C:/SysGCC/raspberry/arm-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf
+  * C:/SysGCC/raspberry/lib/gcc/arm-linux-gnueabihf/10/include
+  * C:/SysGCC/raspberry/lib/gcc/arm-linux-gnueabihf/10/include-fixed
+* Add to C_Cpp Default Compiler path: C:\SysGCC\raspberry\bin\arm-linux-gnueabihf-gcc
+* Set C_Cpp Default IntelliSense Mode: linux-gcc-arm
