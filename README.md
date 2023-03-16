@@ -1,6 +1,8 @@
-https://www.coursera.org/specializations/real-time-embedded-systems
+# Course links
+* Course Program https://www.coursera.org/specializations/real-time-embedded-systems
+  * Course 01 - Real-Time Embedded Systems Concepts and Practices: https://www.coursera.org/learn/real-time-embedded-systems-concepts-practices?specialization=real-time-embedded-systems
 
-# Important Links
+# Tools Links
 * Download raspiberry cross compile tools: https://sysprogs.com/getfile/1742/raspberry-gcc10.2.1.exe
 * How to configure eclipse: https://www.96boards.org/documentation/guides/crosscompile/eclipseide.html
 * Ninja-build: https://ninja-build.org/
@@ -41,5 +43,5 @@ mkdir build && cd build
 cmake <PATH_TO_CMAKE_LISTS> -DCMAKE_TOOLCHAIN_FILE=<PATH_TO_TOOL_CHAIN_FOLDER>/Toolchain-RaspberryPi.cmake -G"Eclipse CDT4 - Ninja" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_BUILD_TYPE=Debug
 ```
 
-# Stuffes
+# Stuffs
 * Clang-format on vscode "clang-format.assumeFilename": "C:/Users/tigomes/Workspace/Courses/RealTimeEmbeddedSystemsCourse/Tools/.clang-format"
