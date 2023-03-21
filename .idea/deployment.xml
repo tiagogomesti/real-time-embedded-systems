@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Remote Development" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="pi (80c86341-2193-4054-91e6-92be8b151cdf)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/RealTimeEmbeddedSystemsCourse" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-pi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Course_01/week_1/programming_task/cmake-build-debug-pi" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Course_01/week_1/examples/01_IncDecThread/cmake-build-debug-pi" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
